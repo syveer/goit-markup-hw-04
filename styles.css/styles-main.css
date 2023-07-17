@@ -143,6 +143,26 @@ a.email-adress {
   height: 600px;
   flex-shrink: 0;
 }
+.hero-title {
+  display: flex;
+  justify-content: center;
+  color: var(--link-color);
+  text-align: center;
+  font-size: 2.75em;
+  font-family: var(--link-font-family);
+  font-weight: 900;
+  line-height: 3.75em;
+  letter-spacing: 0.165em;
+  text-transform: uppercase;
+  top: 12.5em;
+}
+
+.hero-section {
+  background-color: #333;
+  background: url(.images/background.jpg);
+  width: auto;
+}
+
 .main-section h3 {
   color: var(--link-third-color);
   font-size: 1em;
@@ -179,24 +199,6 @@ a.email-adress {
   padding-left: 215px;
   margin: 40px;
   text-align: center;
-}
-.hero-title {
-  display: flex;
-  justify-content: center;
-  color: var(--link-color);
-  text-align: center;
-  font-size: 2.75em;
-  font-family: var(--link-font-family);
-  font-weight: 900;
-  line-height: 3.75em;
-  letter-spacing: 0.165em;
-  text-transform: uppercase;
-  top: 12.5em;
-}
-
-.hero-section {
-  background-color: #333;
-  width: auto;
 }
 
 .title {
