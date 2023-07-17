@@ -157,10 +157,14 @@ a.email-adress {
   top: 12.5em;
 }
 
-.hero-section {
+.container .hero-section {
   background-color: #333;
-  background: url(.images/background.jpg);
   width: auto;
+  background: -webkit-linear-gradient(#00000066, #00000066),
+    url("./images/background.jpg");
+  background-image: url("/images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .main-section h3 {
@@ -170,17 +174,18 @@ a.email-adress {
   font-weight: 700;
   letter-spacing: 0.02625em;
   text-transform: uppercase;
-  text-align: justify;
 }
-.main-section h3 {
+.main-section {
   display: flex;
-  width: 270px;
-  height: 75px;
-  flex-direction: column;
+  flex-direction: row;
   flex-shrink: 0;
   padding-left: 215px;
+  margin: 0;
+}
+.main-section h3 {
+  width: 270px;
+  height: 75px;
   margin: 40px;
-  text-align: center;
 }
 .main-section p {
   color: var(--link-another-color);
@@ -191,14 +196,9 @@ a.email-adress {
   letter-spacing: 0.02625em;
 }
 .main-section p {
-  display: flex;
   width: 270px;
   height: 75px;
-  flex-direction: column;
-  flex-shrink: 0;
-  padding-left: 215px;
   margin: 40px;
-  text-align: center;
 }
 
 .title {
