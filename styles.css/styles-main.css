@@ -12,10 +12,11 @@ div.container {
   margin: 0 auto;
 }
 header a.navigation-menu:hover,
-header .header-contact:hover,
-svg.icon-smartphone:hover {
+header .header-contact:hover
+ {
   color: var(--link-active-color);
-}
+} 
+
 .global-header {
   padding: 0px 215px;
   display: flex;
@@ -94,14 +95,6 @@ header svg.icon-smartphone {
   height: 16px;
   flex-shrink: 0;
   margin-right: 10px;
-}
-.contact {
-  color: var(--link-active-color);
-  font-family: var(--link-font-family);
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.28px;
-  text-decoration: none;
 }
 .hero-section button.button {
   font-weight: 700;
