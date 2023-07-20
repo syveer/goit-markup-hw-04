@@ -188,7 +188,11 @@ header svg.icon-smartphone {
   height: 75px;
   flex-shrink: 0;
 }
-
+.second-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 .image {
   display: flex;
   flex-direction: row;
@@ -397,8 +401,43 @@ main svg.team-media {
 .team {
   display: flex;
   flex-direction: row;
-  padding-left: 215px;
+  justify-content: center;
 }
-svg.team-media:hover svg.team-media:focus {
+svg.team-media:hover,
+svg.team-media:focus
+.customers:hover  {
   color: var(--link-active-color);
+}
+main section.customers {
+  padding: 94px 215px;
+}
+main div.customers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-bottom: 94px;
+  gap: 30px;
+}
+main svg.customers {
+  color: #afb1b8;
+  width: 170px;
+  height: 92px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  padding: 16px 32px;
+  margin: 0px;
+}
+.customers h2 {
+  text-align: center;
+  font-family: var(--link-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+.customers h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 180px;
+  padding-bottom: 50px;
 }
