@@ -441,3 +441,50 @@ main svg.customers {
   padding-top: 180px;
   padding-bottom: 50px;
 }
+.main-section {
+  margin: 94px 215px 225px;
+  display: flex;
+  justify-content: space-between;
+}
+div.column {
+  width: 270px;
+  height: 190px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #f5f4fa;
+}
+svg.column {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+  margin: 25px 100px;
+  padding-top: 50px;
+}
+footer div.social-media-container {
+  padding-top: 10px;
+}
+footer span.social-media-footer {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+footer div.social-media-footer {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  background: #ffffff1a;
+  padding: 12px;
+  margin: 20px 10px 0px 0px;
+
+}
+svg.social-media-footer {
+  padding-left: 512px;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  color: #fff;
+}
