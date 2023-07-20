@@ -10,12 +10,13 @@
 div.container {
   width: 100%;
   margin: 0 auto;
+  text-decoration: none;
+  list-style: none;
 }
 header a.navigation-menu:hover,
-header .header-contact:hover
- {
+header .header-contact:hover {
   color: var(--link-active-color);
-} 
+}
 
 .global-header {
   padding: 0px 215px;
@@ -117,6 +118,7 @@ header svg.icon-smartphone {
   text-align: center;
   height: 600px;
   flex-shrink: 0;
+  width: 1600px;
 }
 .hero-title {
   display: flex;
@@ -195,6 +197,7 @@ header svg.icon-smartphone {
   margin: 0;
   padding-top: 50px;
   gap: 30px;
+  list-style: none;
 }
 .images {
   display: block;
@@ -206,6 +209,7 @@ header svg.icon-smartphone {
   justify-content: center;
   align-items: center;
   margin: 0;
+  list-style: none;
 }
 
 .title {
@@ -258,7 +262,7 @@ header svg.icon-smartphone {
 
 .team-presentation {
   width: 370px;
-  height: 294px;
+  height: 350px;
   flex-shrink: 0;
   padding-bottom: 110px;
   border-radius: 0px 0px 4px 4px;
@@ -319,9 +323,11 @@ address.contact-class {
   line-height: 16.41px;
   letter-spacing: 0.02625em;
   text-decoration: none;
-  width: 14.4375em;
-  height: 1em;
-  padding-left: 206px;
+  width: 231px;
+  height: 16px;
+  flex-shrink: 0;
+  padding-left: 215px;
+  margin-bottom: 10px;
 }
 
 a.mail {
@@ -331,9 +337,11 @@ a.mail {
   line-height: 16px;
   letter-spacing: 0.02625em;
   text-decoration: none;
-  width: 207px;
+  width: 231px;
   height: 16px;
-  padding-left: 182px;
+  flex-shrink: 0;
+  padding-left: 215px;
+  margin-bottom: 10px;
 }
 a.phone {
   color: rgba(255, 255, 255, 0.6);
@@ -343,15 +351,18 @@ a.phone {
   line-height: 16px;
   letter-spacing: 0.02625em;
   text-decoration: none;
-  width: 14.4375em;
-  height: 1em;
-  padding-left: 156px;
+  width: 231px;
+  height: 16px;
+  flex-shrink: 0;
+  padding-left: 215px;
+  margin-bottom: 10px;
 }
 .footer .contact-class a.address-class a.mail a.phone {
   display: flex;
   height: 16px;
   flex-direction: column;
   flex-shrink: 0;
+  padding-left: 215px;
 }
 .adress:hover,
 .adress:focus,
@@ -360,4 +371,34 @@ a.phone {
 .phone:hover,
 .phone:focus {
   color: var(--link-color);
+}
+
+/*********** icon*********/
+
+main div.team-media {
+  width: 44px;
+  height: 80px;
+  flex-shrink: 0;
+  display: inline;
+  margin: 0px 2px;
+  background-color: #fff;
+  border-radius: 22px;
+}
+main div.team-media a {
+  font-size: 0px;
+}
+main svg.team-media {
+  width: 45px;
+  height: 20px;
+  flex-shrink: 0;
+  padding: 14px;
+  padding-left: 25px;
+}
+.team {
+  display: flex;
+  flex-direction: row;
+  padding-left: 215px;
+}
+svg.team-media:hover svg.team-media:focus {
+  color: var(--link-active-color);
 }
