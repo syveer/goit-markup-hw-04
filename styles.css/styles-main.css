@@ -134,16 +134,12 @@ header svg.icon-smartphone {
   top: 12.5em;
 }
 
-.hero-section {
-  background-color: #333;
-  width: auto;
-}
 .container .hero-section {
   background-color: #333;
   width: auto;
   background: -webkit-linear-gradient(#00000066, #00000066),
     url("./images/background.jpg");
-  background-image: url("/images/background.jpg");
+  background-image: url("./images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
 }
