@@ -138,7 +138,7 @@ header svg.icon-smartphone {
   background-color: #333;
   width: auto;
   background: -webkit-linear-gradient(#00000066, #00000066),
-    url("./images/background.jpg");
+    url("/images/background.jpg");
   background-image: url("/images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
