@@ -385,15 +385,13 @@ footer a.footer-contact:hover {
   color: var(--link-active-color);
 }
 
-footer a.social-media-footer:hover
-footer svg.social-media-footer:hover {
-  color:var(--link-active-color);
+footer a.social-media-footer:hover footer svg.social-media-footer:hover {
+  color: var(--link-active-color);
 }
 main svg.team-media:hover {
   color: var(--link-active-color);
   border: 1px solid var(--link-active-color);
 }
-
 
 main div.team-media {
   width: 44px;
@@ -491,7 +489,6 @@ footer div.social-media-footer {
   background: #ffffff1a;
   padding: 12px;
   margin: 20px 10px 0px 0px;
-
 }
 svg.social-media-footer {
   padding-left: 512px;
