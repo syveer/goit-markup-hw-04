@@ -364,16 +364,36 @@ a.phone {
   flex-shrink: 0;
   padding-left: 215px;
 }
-.adress:hover,
-.adress:focus,
-.mail:hover,
-.mail:focus,
-.phone:hover,
-.phone:focus {
-  color: var(--link-color);
+a.adress:hover,
+a.adress:focus,
+a.mail:hover,
+a.mail:focus,
+a.phone:hover,
+a.phone:focus {
+  color: var(--link-active-color);
 }
 
 /*********** icon*********/
+
+main svg.customers:hover {
+  color: var(--link-active-color);
+  border: 1px solid var(--link-active-color);
+}
+header a.navigation-menu:hover,
+header a.header-contact:hover,
+footer a.footer-contact:hover {
+  color: var(--link-active-color);
+}
+
+footer a.social-media-footer:hover
+footer svg.social-media-footer:hover {
+  color:var(--link-active-color);
+}
+main svg.team-media:hover {
+  color: var(--link-active-color);
+  border: 1px solid var(--link-active-color);
+}
+
 
 main div.team-media {
   width: 44px;
@@ -399,11 +419,7 @@ main svg.team-media {
   flex-direction: row;
   justify-content: center;
 }
-svg.team-media:hover,
-svg.team-media:focus
-.customers:hover  {
-  color: var(--link-active-color);
-}
+
 main section.customers {
   padding: 94px 215px;
 }
