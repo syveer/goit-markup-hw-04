@@ -14,7 +14,7 @@ div.container {
   list-style: none;
 }
 header a.navigation-menu:hover,
-header .header-contact:hover {
+header .header-contact:hover, {
   color: var(--link-active-color);
 }
 
@@ -91,6 +91,7 @@ header svg.icon-envelope {
   flex-shrink: 0;
   margin-right: 10px;
 }
+
 header svg.icon-smartphone {
   width: 20px;
   height: 16px;
@@ -151,7 +152,6 @@ header svg.icon-smartphone {
   margin: 0;
   text-align: center;
   flex-shrink: 0;
-  padding-left: auto;
 }
 .main-section h3 {
   display: flex;
@@ -162,9 +162,7 @@ header svg.icon-smartphone {
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-  padding-top: 94px;
   gap: 30px;
-  margin: 30px;
   width: 270px;
 }
 
@@ -201,7 +199,7 @@ header svg.icon-smartphone {
 }
 .images {
   display: block;
-  margin: 0;
+  margin: 30px;
 }
 .third-section ul {
   display: flex;
@@ -281,6 +279,7 @@ header svg.icon-smartphone {
   margin: 0;
   width: 100%;
 }
+
 .footer a.logo-white {
   display: flex;
   flex-direction: row;
@@ -364,6 +363,7 @@ a.phone {
   flex-shrink: 0;
   padding-left: 215px;
 }
+
 a.adress:hover,
 a.adress:focus,
 a.mail:hover,
@@ -385,6 +385,10 @@ footer a.footer-contact:hover {
   color: var(--link-active-color);
 }
 
+svg.icon-smartphone:hover {
+  color: var(--link-active-color);
+}
+
 footer a.social-media-footer:hover footer svg.social-media-footer:hover {
   color: var(--link-active-color);
 }
@@ -400,7 +404,7 @@ main div.team-media {
   display: inline;
   margin: 0px 2px;
   background-color: #fff;
-  border-radius: 22px;
+  border-radius: 14px;
 }
 main div.team-media a {
   font-size: 0px;
@@ -412,6 +416,7 @@ main svg.team-media {
   padding: 14px;
   padding-left: 25px;
 }
+
 .team {
   display: flex;
   flex-direction: row;
@@ -470,30 +475,29 @@ svg.column {
   margin: 25px 100px;
   padding-top: 50px;
 }
-footer div.social-media-container {
-  padding-top: 10px;
-}
-footer span.social-media-footer {
+.social-media {
+  float: left;
+  padding-left: 528px;
+  margin: 0;
+  width: 100%;
   color: #fff;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-footer div.social-media-footer {
-  display: inline-flex;
-  width: 44px;
-  height: 44px;
-  flex-shrink: 0;
-  border-radius: 22px;
-  background: #ffffff1a;
-  padding: 12px;
-  margin: 20px 10px 0px 0px;
-}
+
 svg.social-media-footer {
-  padding-left: 512px;
-  width: 20px;
-  height: 20px;
+  float: left;
+  text-align: center;
+
   flex-shrink: 0;
   color: #fff;
+}
+svg.social-media-footer {
+  border-radius: 22px;
+  background: #ffffff1a;
+  margin: 20px 10px 0px 0px;
+  width: 44px;
+  height: 44px;
 }
